@@ -1,0 +1,23 @@
+/* mengatur warna backgroud dan padding pada tag body bagian atas agar form tidak menempel diatas */
+
+body {
+    height: 100%;
+    background-image: url('contoh-gambar3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* mengatur warna backgroud form */
+
+form {
+    background: #fff;
+}
+
+
+/* mengatur border dan padding class form-container */
+
+.form-container {
+    border-radius: 10px;
+    padding: 30px;
+}
